@@ -12,7 +12,7 @@ solids = [[["LA"], ["NI"]], [["CE"], ["NI"]]]  # Define solids involved in the s
 color = ["blue", "orange"]
 for n, solid in enumerate(solids):
     multiplicity = [1, 5, 1, 6]  # Define the multiplicity of sites in the structure
-    site_fractions = [[1], [1]]  # Initial site fractions for hydrogen
+    site_fractions = [[1], [1]]  # Initial site fractions for metal atom sites
     Initial_Structure = Structure(
         solid, multiplicity, site_fractions
     )  # Create a structure instance
